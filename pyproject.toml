@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_cas"
+description = "This extension provides nodes that allow experimentation with various elements (samplers, latent, activators, attenuator, scheulders, ...) of Stable Diffusion."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["inspect", "math", "tqdm", "kornia", "functools", "matplotlib", "numpy", "einops", "json", "logging", "random", "typing", "pywt", "opensimplex", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/BenNarum/ComfyUI_CAS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_CAS"
+Icon = ""
